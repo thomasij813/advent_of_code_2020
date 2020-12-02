@@ -5,6 +5,7 @@
   "author": "Thomas Johnson <thomasij813@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "purify-ts": "^0.16.1",
     "ramda": "^0.27.1",
     "rxjs": "^6.6.3"
   },

@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/thomasjohnson/.nvm/versions/node/v15.3.0/bin/node /Users/thomasjohnson/.nvm/versions/node/v15.3.0/bin/yarn add -D @types/rxjs
+  /Users/thomasjohnson/.nvm/versions/node/v15.3.0/bin/node /Users/thomasjohnson/.nvm/versions/node/v15.3.0/bin/yarn add -D @types/folktale
 
 PATH: 
   /Users/thomasjohnson/.cabal/bin:/Users/thomasjohnson/.ghcup/bin:/Users/thomasjohnson/.pyenv/shims:/Users/thomasjohnson/.nvm/versions/node/v15.3.0/bin:/Users/thomasjohnson/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/thomasjohnson/.cabal/bin:/Users/thomasjohnson/.ghcup/bin:/Users/thomasjohnson/.pyenv/shims:/Users/thomasjohnson/.nvm/versions/node/v15.3.0/bin:/Users/thomasjohnson/.cargo/bin:/Users/thomasjohnson/go/bin:/Users/thomasjohnson/.dotnet/tools:/Users/thomasjohnson/go/bin:/Users/thomasjohnson/.dotnet/tools
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2frxjs: Not found
+  Error: https://registry.yarnpkg.com/@types%2ffolktale: Not found
       at Request.params.callback [as _callback] (/Users/thomasjohnson/.nvm/versions/node/v15.3.0/lib/node_modules/yarn/lib/cli.js:66988:18)
       at Request.self.callback (/Users/thomasjohnson/.nvm/versions/node/v15.3.0/lib/node_modules/yarn/lib/cli.js:140662:22)
       at Request.emit (node:events:376:20)
@@ -34,6 +34,7 @@ npm manifest:
     "author": "Thomas Johnson <thomasij813@gmail.com>",
     "license": "MIT",
     "dependencies": {
+      "folktale": "^2.3.2",
       "ramda": "^0.27.1",
       "rxjs": "^6.6.3"
     },
@@ -62,6 +63,11 @@ Lockfile:
     integrity sha512-vdwZcWC+hlTxB//LZQLS1+VEdArImGI4yVKUpeqB8b9mBXgDFXCuQoOt8spQbi8fTyNLOdqRv6liSm2ckxWLog==
     dependencies:
       ts-toolbelt "^6.15.1"
+  
+  folktale@^2.3.2:
+    version "2.3.2"
+    resolved "https://registry.yarnpkg.com/folktale/-/folktale-2.3.2.tgz#38231b039e5ef36989920cbf805bf6b227bf4fd4"
+    integrity sha512-+8GbtQBwEqutP0v3uajDDoN64K2ehmHd0cjlghhxh0WpcfPzAIjPA03e1VvHlxL02FVGR0A6lwXsNQKn3H1RNQ==
   
   ramda@^0.27.1:
     version "0.27.1"

@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/json-schema@^7.0.4":
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
+  integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
+
 "@types/node@^14.14.10":
   version "14.14.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
@@ -13,6 +18,13 @@
   integrity sha512-vdwZcWC+hlTxB//LZQLS1+VEdArImGI4yVKUpeqB8b9mBXgDFXCuQoOt8spQbi8fTyNLOdqRv6liSm2ckxWLog==
   dependencies:
     ts-toolbelt "^6.15.1"
+
+purify-ts@^0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/purify-ts/-/purify-ts-0.16.1.tgz#45c8ac5e131afb24180ef604c233671b182adf20"
+  integrity sha512-BX0Su8dRitLCDcgf8hxsAdr2BVWdf/C4ObVn2tPx6n6r4ys9IqDidaAWXUgqT/EHe5+9Z+uaZnQ/x4xxiMzQRw==
+  dependencies:
+    "@types/json-schema" "^7.0.4"
 
 ramda@^0.27.1:
   version "0.27.1"
